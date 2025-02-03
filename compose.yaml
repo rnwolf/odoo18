@@ -6,7 +6,7 @@
 
 services:
   odoo:
-    image: odoo:17
+    image: odoo:18
     environment:
       - SERVICE_FQDN_ODOO_8069
       - HOST=postgresql
